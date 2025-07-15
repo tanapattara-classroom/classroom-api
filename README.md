@@ -176,7 +176,7 @@ curl "http://localhost:3000/api/books?search=gatsby&page=1&limit=10"
 
 ```bash
 # Build and start all services
-docker-compose up -d --build
+docker-compose up -d
 
 # View logs
 docker-compose logs -f api
